@@ -79,16 +79,11 @@ function App() {
 
   return !!schema ? (
     <>
-      <Card w="xl" p={10} background="rgba(255,255,255,.90)">
+      <Card w="xl" p={10} background="rgba(255,257,255,.90)">
         <Heading mb={5}>Claim {pascalStrToSpacedWord(schema.schema)}</Heading>
         <Form fieldInfo={schema?.attributes} passBackResults={handleResults} />
       </Card>
-      <Text m={10} as="sub" className="builtBy">
-        Template built by{' '}
-        <a href="https://twitter.com/0ceans404" target="_blank">
-          🌊 oceans404
-        </a>
-      </Text>
+      
     </>
   ) : (
     <Spinner size="xl" />
