@@ -1,6 +1,6 @@
 # Generate Your Own Polygon ID Claim Website 
 
-If you're tired of manually creating and sending Polygon ID claim links one by one? Here's a claim site I created for my Polygon ID [AboutMe schema]
+If you're tired of manually creating and sending Polygon ID claim links one by one? Here's a claim site I created for my Polygon ID for employee to have a verification claim issued from the company
 
 
 ## Getting started
